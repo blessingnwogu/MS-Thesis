@@ -57,12 +57,15 @@ The research explored three key questions:
     Training: Custom Dataset class and DataLoader, linear learning rate scheduler
 
 📈 Results
-Model	Accuracy	Precision (Positive)	Recall (Negative)	F1-Score
-Random Forest	97%	0.97	0.99	High
-SVM	95%	0.97	0.97	High
-XGBoost	94%	0.97	0.96	High
-LSTM	82%	0.85	0.71	Medium
-BERT	86%	0.90	0.68	Medium
+| Model         | Accuracy | Precision (Positive) | Recall (Negative) | F1-Score |
+|---------------|----------|----------------------|--------------------|----------|
+| Random Forest | 97%      | 0.97                 | 0.99               | High     |
+| SVM           | 95%      | 0.97                 | 0.97               | High     |
+| XGBoost       | 94%      | 0.97                 | 0.96               | High     |
+| LSTM          | 82%      | 0.85                 | 0.71               | Medium   |
+| BERT          | 86%      | 0.90                 | 0.68               | Medium   |
+
+
 🧠 Key Insight
 
 Despite BERT’s potential in understanding language nuances, Random Forest outperformed all models in this binary classification task. However, BERT remains promising for future work involving nuanced or domain-specific sentiment.
